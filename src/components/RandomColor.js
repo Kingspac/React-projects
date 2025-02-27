@@ -3,7 +3,7 @@ import '../App.css';
 
 function RandomColor(){
   const [typeOfColor, setTypeOfColor] = useState("hex");
-  const [color, setColor] = useState("#000000");
+  const [color, setColor] = useState("#00000");
   
   function handleCreateRandomColor(){
     
@@ -16,11 +16,11 @@ function RandomColor(){
     }}
     >
       <button onClick={()=> setTypeOfColor("hex")}
-      >Hex Color</button>
+      >Hex Colors</button>
       <button onClick={()=> setTypeOfColor("rgb")}
-      >rgb Color</button>
+      >rgb Colors</button>
       <button onClick={handleCreateRandomColor}
-      >Generate Color</button>
+      >Generate Colors</button>
     </div>
     )
 }
