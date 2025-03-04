@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper button{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: rgb(216,105,105);
+  gap:20px;
+}
+.accordion{
+  width: 360px;
+  height: ;
+}
+.item{
+  background: rgb(89,17,17);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.title{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content{
+  color: white;
+  height: auto;
+}
+.active{
+  color: yellow;
+}
+.inactive{
+  color: black;
+}
