@@ -31,7 +31,7 @@ function StarsRating({noOfStars = 5}){
         })}
   </div>
     )
-}
+};
 export default StarsRating;
   
     
